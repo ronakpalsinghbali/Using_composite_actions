@@ -1,1 +1,1 @@
-FROM alphine
+FROM alpine
