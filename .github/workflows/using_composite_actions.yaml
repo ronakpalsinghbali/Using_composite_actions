@@ -14,7 +14,7 @@ jobs:
          - name: Printing Text
            run: echo Hello There, I am using Composite Actions
          - name: Build and push image
-           uses: n3wt0n/CompositeAction@main
+           uses: ronakpalsinghbali/CompositeAction@main
            with:
             registry_username: ${{secrets.REGISTRY_USERNAME}}
             registry_password: ${{secrets.REGISTRY_PASSWORD}}
