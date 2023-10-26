@@ -16,7 +16,7 @@ jobs:
 
     job2:
         name: Build and push image
-        uses: ronakpalsinghbali/ReusableWorkflowRonak/.github/workflows/builandpush.yaml@main
+        uses: ronakpalsinghbali/ReusableWorkflowRonak/.github/workflows/buildandpush.yaml@main
         with:
             image_name : Re-usable workflow example
             tag: 1.0
