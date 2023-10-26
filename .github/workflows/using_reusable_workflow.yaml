@@ -16,10 +16,12 @@ jobs:
 
     job2:
         name: Build and push image
-        uses: ronakpalsinghbali/ReusableWorkflowRonak/.github/workflows/buildandpush.yaml@main
+        uses: n3wt0n/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml@main
         with:
             image_name : reusable_workflow_example
             tag: 1.0
         secrets:
             registry_username: ${{ secrets.REGISTRY_USERNAME}}
             registry_password: ${{ secrets.REGISTRY_PASSWORD}}
+
+            # ronakpalsinghbali/ReusableWorkflowRonak/.github/workflows/buildandpush.yaml@main
